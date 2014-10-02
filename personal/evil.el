@@ -7,10 +7,10 @@
 (eval-after-load "evil"
 '(progn
     ;; Set up better window navigation
-    (define-key evil-normal-state-map (kbd "s-h") 'evil-window-left)
-    (define-key evil-normal-state-map (kbd "s-j") 'evil-window-down)
-    (define-key evil-normal-state-map (kbd "s-k") 'evil-window-up)
-    (define-key evil-normal-state-map (kbd "s-l") 'evil-window-right)
+    ;; (define-key evil-normal-state-map (kbd "s-h") 'evil-window-left)
+    ;; (define-key evil-normal-state-map (kbd "s-j") 'evil-window-down)
+    ;; (define-key evil-normal-state-map (kbd "s-k") 'evil-window-up)
+    ;; (define-key evil-normal-state-map (kbd "s-l") 'evil-window-right)
     ;; Map alternate Esc
     (key-chord-define evil-insert-state-map "jk" 'evil-normal-state)
     ;; shifting
